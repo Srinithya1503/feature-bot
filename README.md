@@ -8,7 +8,7 @@ A production-quality machine learning pipeline demonstrating responsible AI prac
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements **FeatureBot**, an iterative feature engineering methodology that combines:
 - Domain knowledge with data-driven validation
@@ -22,7 +22,7 @@ This project implements **FeatureBot**, an iterative feature engineering methodo
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Income prediction models are critical for:
 - **Credit risk assessment:** Determining loan eligibility and interest rates
@@ -33,7 +33,7 @@ Income prediction models are critical for:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [UCI Adult Income Dataset](https://archive.ics.uci.edu/ml/datasets/adult)  
 **Records:** 48,842 census entries  
@@ -51,7 +51,7 @@ Income prediction models are critical for:
 
 ---
 
-## 🔧 Feature Engineering Strategy
+## Feature Engineering Strategy
 
 ### The FeatureBot Approach
 
@@ -77,7 +77,7 @@ Instead of ad-hoc feature creation, we use an **iterative, evidence-based workfl
 
 ---
 
-## 🤖 Model Choice & Justification
+## Model Choice & Justification
 
 ### Why Logistic Regression?
 
@@ -90,7 +90,7 @@ Instead of ad-hoc feature creation, we use an **iterative, evidence-based workfl
 
 ---
 
-## ⚖️ Fairness & Bias Analysis
+## Fairness & Bias Analysis
 
 ### Key Distinction: Dataset Bias ≠ Model Bias
 
@@ -114,14 +114,14 @@ Instead of ad-hoc feature creation, we use an **iterative, evidence-based workfl
 ### Responsible AI Mitigation
 
 For high-stakes applications, additional safeguards:
-- ✅ Remove sensitive features (gender, race)
-- ✅ Apply group-specific thresholds
-- ✅ Regular audits with updated data
-- ✅ Human-in-the-loop for final decisions
+- Remove sensitive features (gender, race)
+- Apply group-specific thresholds
+- Regular audits with updated data
+- Human-in-the-loop for final decisions
 
 ---
 
-## 📈 Results & Key Insights
+## Results & Key Insights
 
 ### Model Performance
 
@@ -141,7 +141,7 @@ For high-stakes applications, additional safeguards:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FeatureBot/
@@ -163,29 +163,6 @@ FeatureBot/
 └── .gitignore                    # Git exclusions
 ```
 
----
-
-## 🚀 How to Run the Project
-
-### Prerequisites
-```bash
-Python 3.8+
-Jupyter Notebook
-```
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/yourusername/FeatureBot.git
-cd FeatureBot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter
-jupyter notebook notebooks/featurebot.ipynb
-```
-
 ### Reproducibility
 - Fixed random seeds (42) ensure identical results
 - Stratified splits maintain class balance
@@ -193,13 +170,12 @@ jupyter notebook notebooks/featurebot.ipynb
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 ### Technical Enhancements
 - [ ] Implement 5-fold cross-validation for threshold selection
 - [ ] Add SHAP values for instance-level explainability
-- [ ] Test alternative encodings (CatBoost, James-Stein)
-- [ ] Expand fairness analysis to race and age groups
+
 
 ### Production Readiness
 - [ ] Containerize with Docker
@@ -214,7 +190,7 @@ jupyter notebook notebooks/featurebot.ipynb
 
 ---
 
-## 📚 References
+## References
 
 - **Dataset:** [UCI Machine Learning Repository - Adult](https://archive.ics.uci.edu/ml/datasets/adult)
 - **Fairness Metrics:** [Aequitas Toolkit](http://aequitas.dssg.io/)
@@ -222,14 +198,14 @@ jupyter notebook notebooks/featurebot.ipynb
 
 ---
 
-## 👤 Author
+## Author
 
 **[Sri Nithya S]**  
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/Srinithya1503)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
